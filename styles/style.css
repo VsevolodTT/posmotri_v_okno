@@ -58,7 +58,7 @@ ol {
   position: relative;
   height: 298px;
   overflow-y: scroll;
-  scrollbar-width: none;
+  scrollbar-width: thin;
 }
 
 .content__details {
@@ -75,7 +75,6 @@ ol {
   height: 386px;
   margin-top: 78px;
   margin-bottom: 16px;
-  /* padding-top: 78px; */
 }
 
 .result__video {
@@ -106,7 +105,7 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  max-width: 211px;
+  max-width: 200px;
 }
 
 .content__card-link {
